@@ -1,0 +1,1 @@
+{"key":"oauth","value":{"callback":"http://localhost:8080/auth","signature_method":"HMAC-SHA1","consumer_key":"yn3jcqguouvorwo4lofzri5bdsv05dipnsftxkxv","consumer_secret":"3mhnf1dmgmzkple4n02o0dl1nsdub0xcckzr0idt","oauth_token_secret":"KUPNTCASR45H02LOIPV21RNA2JIKQ5SKQLAOBSBF","oauth_token":"IO5MWIM1Q1EJ5UBFBF5TEDXRDPWZIDOQYUA2NBOV","oauth_verifier":"25227"}}

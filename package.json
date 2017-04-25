@@ -7,5 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-persist": "^2.0.10",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0",
+    "restify": "^4.3.0"
+  }
 }
