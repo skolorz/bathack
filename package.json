@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "jsonfile": "^3.0.0",
     "node-persist": "^2.0.10",
     "querystring": "^0.2.0",
     "request": "^2.81.0",
