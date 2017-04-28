@@ -4,13 +4,13 @@ var request = require("request"),
         oauth,
         host = 'http://52.164.126.252',
         prefix = '/obp/v2.1.0',
-        url = host + prefix + '/users/current';
+        url = host + prefix + '/banks';
 
 storage.initSync();
-oauth = storage.getItemSync('oauth');
+oauth= storage.getItemSync('oauth');
 console.log(oauth);
-
-request.get({url: url, oauth: oauth}, function (e, r, body) {
+console.log(url);
+request.get({url:url}, function (e, r, body) {
         var req_data = qs.parse(body);
         if (e){
                 console.log("error", e);
