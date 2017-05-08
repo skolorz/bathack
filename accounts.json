@@ -1,15 +1,1 @@
-[
-  {
-    "id": "08160947-a05f-0831-8e09-197a2d405efc",
-    "label": "Konto osobiste Direct",
-    "bank_id": "gotham",
-    "_links": {
-      "self": {
-        "href": "http://52.164.126.252/obp/v2.0.0/my/accounts"
-      },
-      "detail": {
-        "href": "http://52.164.126.252/obp/v2.0.0/my/banks/gotham/accounts/08160947-a05f-0831-8e09-197a2d405efc/account"
-      }
-    }
-  }
-]
+[]

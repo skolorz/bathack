@@ -1,0 +1,3319 @@
+[
+  {
+    "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+    "label": "Konto Komfort",
+    "bank_id": "ing",
+    "_links": {
+      "self": {
+        "href": "http://52.164.126.252/obp/v2.0.0/my/accounts"
+      },
+      "detail": {
+        "href": "http://52.164.126.252/obp/v2.0.0/my/banks/ing/accounts/11c725fe-e39d-49c3-97e5-37545557aad1/account"
+      }
+    },
+    "transactions": {
+      "transactions": [
+        {
+          "id": "3cc9ff43-eb53-7830-c669-1a14bb23ebe5",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "4b490e1b-041b-43f4-aab4-87d939b246cb",
+            "holder": {
+              "name": "Tech Data",
+              "is_alias": false
+            },
+            "number": "18",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL05286764252763496572104389",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_E67036",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Dysk SSD",
+            "posted": "2017-05-06T16:02:53Z",
+            "completed": "2017-05-06T16:02:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "53070.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-313.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "1278bf25-b55b-91a2-5773-5d7a3d7ca90e",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b885ab55-3dd2-4d7d-9897-28c223cc12f6",
+            "holder": {
+              "name": "Gotham City Bank",
+              "is_alias": false
+            },
+            "number": "6",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL97873035809568979391228294",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_BC42AB",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Leasing",
+            "posted": "2017-05-05T16:59:43Z",
+            "completed": "2017-05-05T16:59:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "53383.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-228.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "929d0dec-5492-248e-2235-fa61ef04d9b0",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "4b05d5ae-109e-46b7-b915-a92802dea6e7",
+            "holder": {
+              "name": "Shell",
+              "is_alias": false
+            },
+            "number": "4",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL66913105691166626602390037",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_272E6D",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Gaz",
+            "posted": "2017-05-05T04:23:13Z",
+            "completed": "2017-05-05T04:23:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "53611.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-6.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "66671329-c228-c654-52f4-64e751988621",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b46f8599-21e9-4e29-b853-db669242be95",
+            "holder": {
+              "name": "Stacja Paliw BP",
+              "is_alias": false
+            },
+            "number": "1",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL74936770736017818150661124",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1C7D90",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Opłata za paliwo",
+            "posted": "2017-05-04T23:00:03Z",
+            "completed": "2017-05-04T23:00:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "53617.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-24.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "a8b8dfd2-1ca7-45bd-7d42-a6f978c951db",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "13f751d2-a1ab-4a1e-a62f-b7e994ab35c7",
+            "holder": {
+              "name": "Spółdzielnia HGSM",
+              "is_alias": false
+            },
+            "number": "24",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL52267324496047119571184344",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_C9DF24",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Czynsz",
+            "posted": "2017-05-02T19:23:13Z",
+            "completed": "2017-05-02T19:23:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "53641.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-335.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "c1f58629-5786-0235-2937-d644e4ce0e31",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "e5b13c16-acca-4e4c-a217-bfd368901fd9",
+            "holder": {
+              "name": "Żabka",
+              "is_alias": false
+            },
+            "number": "8",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL48113719503401719804856593",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_5589DF",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Hot-dog",
+            "posted": "2017-04-29T19:18:13Z",
+            "completed": "2017-04-29T19:18:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "53976.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-72.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "8eef82e3-aa0a-42a8-ba86-e3e32cb4cb3a",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b885ab55-3dd2-4d7d-9897-28c223cc12f6",
+            "holder": {
+              "name": "Gotham City Bank",
+              "is_alias": false
+            },
+            "number": "6",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL97873035809568979391228294",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_BC42AB",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Leasing",
+            "posted": "2017-04-29T17:35:53Z",
+            "completed": "2017-04-29T17:35:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54048.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-174.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "36f10e0f-93df-524f-682a-5f794395370a",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b996e861-199d-4319-99bc-949c76403865",
+            "holder": {
+              "name": "Apteka Melissa",
+              "is_alias": false
+            },
+            "number": "28",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL38241390322998845436402529",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1E66D4",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Globulki",
+            "posted": "2017-04-27T04:47:13Z",
+            "completed": "2017-04-27T04:47:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54222.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-40.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "0cd5543d-e4ed-8a82-5ce1-6fea0ac86879",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "e414b902-5b07-48fa-8d19-5be7ba2f257c",
+            "holder": {
+              "name": "Świat Alkoholi",
+              "is_alias": false
+            },
+            "number": "32",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL37978762170135820025946301",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_119479",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Piwo",
+            "posted": "2017-04-24T05:33:13Z",
+            "completed": "2017-04-24T05:33:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54262.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-48.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "eee48b7c-1d78-2d0f-4cc7-9e51cecfe157",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "2c0b4c25-1a45-4715-b20d-2944f1996523",
+            "holder": {
+              "name": "Spółdzielnia Mieszkaniowa KSM",
+              "is_alias": false
+            },
+            "number": "14",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL40810333307137683484976571",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_D9CBB7",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Czynsz",
+            "posted": "2017-04-24T00:18:43Z",
+            "completed": "2017-04-24T00:18:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54310.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-143.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "5bf0fb85-0771-9435-c3b4-7e1adfb07915",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "22d5f938-1f60-435e-8fbd-4086434b256b",
+            "holder": {
+              "name": "Cyfrowy Polsat",
+              "is_alias": false
+            },
+            "number": "16",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL53517914389620498399572086",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_016159",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "opłata za dodatkowe kanały",
+            "posted": "2017-04-21T05:16:53Z",
+            "completed": "2017-04-21T05:16:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54453.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-89.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "e4f0eca5-995e-63e1-3eb5-de102fc526d2",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b996e861-199d-4319-99bc-949c76403865",
+            "holder": {
+              "name": "Apteka Melissa",
+              "is_alias": false
+            },
+            "number": "28",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL38241390322998845436402529",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1E66D4",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Globulki",
+            "posted": "2017-04-20T21:18:03Z",
+            "completed": "2017-04-20T21:18:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54542.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-14.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "ac73c9ee-296a-37b3-c734-61cc18213b62",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "e5b13c16-acca-4e4c-a217-bfd368901fd9",
+            "holder": {
+              "name": "Żabka",
+              "is_alias": false
+            },
+            "number": "8",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL48113719503401719804856593",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_5589DF",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Hot-dog",
+            "posted": "2017-04-18T15:42:53Z",
+            "completed": "2017-04-18T15:42:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54556.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-69.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "675db235-bf05-e899-3591-8728de18b740",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "24b01ac7-bd15-4f13-98aa-d480f8582ced",
+            "holder": {
+              "name": "TAURON Polska Energia S.A.",
+              "is_alias": false
+            },
+            "number": "10",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL64534812577919012677307687",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_B25891",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Opłata za energię",
+            "posted": "2017-04-17T18:06:13Z",
+            "completed": "2017-04-17T18:06:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54625.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-103.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "0ea590fe-eb4d-4b4c-dd67-6dac91ac2102",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0ca2e9d2-a508-43b5-b197-3f2fa3ff9425",
+            "holder": {
+              "name": "PGNIG S.A.",
+              "is_alias": false
+            },
+            "number": "13",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL70938618941990086049419613",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_D4F407",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Za gaz",
+            "posted": "2017-04-15T11:15:43Z",
+            "completed": "2017-04-15T11:15:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54728.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-15.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "058b3646-892b-c7b4-73af-388593f3171c",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "24b01ac7-bd15-4f13-98aa-d480f8582ced",
+            "holder": {
+              "name": "TAURON Polska Energia S.A.",
+              "is_alias": false
+            },
+            "number": "10",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL64534812577919012677307687",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_B25891",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Opłata za energię",
+            "posted": "2017-04-10T17:27:23Z",
+            "completed": "2017-04-10T17:27:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54743.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-84.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "990c0465-4ebb-fd54-08bb-ec6ef7d32fb1",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b46f8599-21e9-4e29-b853-db669242be95",
+            "holder": {
+              "name": "Stacja Paliw BP",
+              "is_alias": false
+            },
+            "number": "1",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL74936770736017818150661124",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1C7D90",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Umowa nr 718/2219",
+            "posted": "2017-04-09T22:32:53Z",
+            "completed": "2017-04-09T22:32:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "54827.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "5250.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "a68453f6-ee0b-1eef-96e5-182f08b8045a",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "c0c897f2-4e8b-40ac-bdc4-461622b1fc11",
+            "holder": {
+              "name": "E-Fryzjer",
+              "is_alias": false
+            },
+            "number": "30",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL33970734925987070809617458",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_907C8D",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Usługa fryzjerska",
+            "posted": "2017-04-07T10:12:03Z",
+            "completed": "2017-04-07T10:12:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "49577.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-19.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "b3abbac5-4105-d9c3-b3c0-b7ec7973abfe",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "9f9248c5-7cbf-407b-9611-86c85510f565",
+            "holder": {
+              "name": "Empik",
+              "is_alias": false
+            },
+            "number": "19",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL97558026942081524290435758",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_4D9726",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Prezent",
+            "posted": "2017-04-04T04:28:43Z",
+            "completed": "2017-04-04T04:28:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "49596.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-173.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "4b1eea22-1501-bbe6-d4af-a23a6ff1e752",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "24b01ac7-bd15-4f13-98aa-d480f8582ced",
+            "holder": {
+              "name": "TAURON Polska Energia S.A.",
+              "is_alias": false
+            },
+            "number": "10",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL64534812577919012677307687",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_B25891",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Opłata za energię",
+            "posted": "2017-03-31T18:26:13Z",
+            "completed": "2017-03-31T18:26:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "49769.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-86.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "6722077c-7211-eb24-b1bf-3d90b053ded2",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "4276d9cb-89ad-41a7-bb6d-84cf6245e115",
+            "holder": {
+              "name": "Orlen",
+              "is_alias": false
+            },
+            "number": "7",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL87569260842728718906046671",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_7A59B3",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Paliwo",
+            "posted": "2017-03-29T20:27:13Z",
+            "completed": "2017-03-29T20:27:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "49855.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-16.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "8cec4099-83e7-8957-7829-c87a88ec2e02",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0746a1c6-4e5e-4ff8-bbb4-393b098f6b65",
+            "holder": {
+              "name": "Biedronka",
+              "is_alias": false
+            },
+            "number": "5",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL15575275287655328943019312",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_6C3127",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Pieczywo",
+            "posted": "2017-03-29T11:49:13Z",
+            "completed": "2017-03-29T11:49:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "49871.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-104.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "9f7489b9-9ffb-8848-5976-517c328052f7",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "c68f5625-9d0b-47f0-b2b6-8b6f5a4ce286",
+            "holder": {
+              "name": "Mediamarkt.pl",
+              "is_alias": false
+            },
+            "number": "15",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL79243983923619387961339983",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_357BE8",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Zakup suszarki",
+            "posted": "2017-03-29T10:02:53Z",
+            "completed": "2017-03-29T10:02:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "49975.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-304.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "d18928e0-c1e1-4e4d-11b9-248d04531d24",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "48849078-3bf9-4ed6-bc35-672498be0ec4",
+            "holder": {
+              "name": "ING Bank Śląski",
+              "is_alias": false
+            },
+            "number": "3",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL41522319248614863767576903",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_39B56A",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Kredyt",
+            "posted": "2017-03-28T21:39:33Z",
+            "completed": "2017-03-28T21:39:33Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50279.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-171.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "c2928465-b31f-2d22-7694-4fd747349093",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "ee53dad7-7d30-4711-af2a-29f382659129",
+            "holder": {
+              "name": "Kyoto Sushi",
+              "is_alias": false
+            },
+            "number": "23",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL18935854623490508730237590",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_9F3238",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Sushi",
+            "posted": "2017-03-27T14:30:03Z",
+            "completed": "2017-03-27T14:30:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50450.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-133.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "fb3cc1eb-0845-80a4-3a15-b8a683b4f02a",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "e5b13c16-acca-4e4c-a217-bfd368901fd9",
+            "holder": {
+              "name": "Żabka",
+              "is_alias": false
+            },
+            "number": "8",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL48113719503401719804856593",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_5589DF",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Hot-dog",
+            "posted": "2017-03-23T18:32:23Z",
+            "completed": "2017-03-23T18:32:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50604.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-79.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "b0963e7f-c292-91a3-c9c9-6c4195e8903d",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "4b05d5ae-109e-46b7-b915-a92802dea6e7",
+            "holder": {
+              "name": "Shell",
+              "is_alias": false
+            },
+            "number": "4",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL66913105691166626602390037",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_272E6D",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Gaz",
+            "posted": "2017-03-22T22:57:03Z",
+            "completed": "2017-03-22T22:57:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50683.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-13.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "eeb9e53c-0791-09ad-4251-f08770826145",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "627adfc3-8697-401a-9061-d514f7ccd16e",
+            "holder": {
+              "name": "Saturn",
+              "is_alias": false
+            },
+            "number": "26",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL94409517989926221230940345",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1D285F",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Słuchawki",
+            "posted": "2017-03-22T07:58:23Z",
+            "completed": "2017-03-22T07:58:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50696.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-83.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "b0e23d7f-f7d7-f68b-f445-172c960f0a86",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "13f751d2-a1ab-4a1e-a62f-b7e994ab35c7",
+            "holder": {
+              "name": "Spółdzielnia HGSM",
+              "is_alias": false
+            },
+            "number": "24",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL52267324496047119571184344",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_C9DF24",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Czynsz",
+            "posted": "2017-03-21T11:38:43Z",
+            "completed": "2017-03-21T11:38:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50779.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-72.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "83340023-bcc7-6cd7-140e-b321097b0a31",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0560ba88-328d-44f7-910a-d96f10671a87",
+            "holder": {
+              "name": "The Bank Of Gringotts",
+              "is_alias": false
+            },
+            "number": "9",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL86035353773555342526791085",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_2F035E",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Rata za mieszkanie",
+            "posted": "2017-03-19T10:35:43Z",
+            "completed": "2017-03-19T10:35:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50851.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-17.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "685619fd-b274-76ce-2141-471ff99cf021",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "48849078-3bf9-4ed6-bc35-672498be0ec4",
+            "holder": {
+              "name": "ING Bank Śląski",
+              "is_alias": false
+            },
+            "number": "3",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL41522319248614863767576903",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_39B56A",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Kredyt",
+            "posted": "2017-03-17T01:44:53Z",
+            "completed": "2017-03-17T01:44:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50868.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-126.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "67ef2b4f-b817-3f4f-74ce-2cde16c1a3f1",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0eaa2f4b-693f-41ff-90b7-efd036ca0337",
+            "holder": {
+              "name": "Douglas",
+              "is_alias": false
+            },
+            "number": "17",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL02117440393207002931007399",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_7E159D",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Krem do rąk",
+            "posted": "2017-03-15T10:34:43Z",
+            "completed": "2017-03-15T10:34:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "50994.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-180.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "6eed228e-8bef-c64e-22ce-61792c735565",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b996e861-199d-4319-99bc-949c76403865",
+            "holder": {
+              "name": "Apteka Melissa",
+              "is_alias": false
+            },
+            "number": "28",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL38241390322998845436402529",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1E66D4",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Globulki",
+            "posted": "2017-03-13T05:17:53Z",
+            "completed": "2017-03-13T05:17:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "51174.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-5.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "16e6727a-e7c4-cdcb-1148-52f9969f3a3e",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "ee53dad7-7d30-4711-af2a-29f382659129",
+            "holder": {
+              "name": "Kyoto Sushi",
+              "is_alias": false
+            },
+            "number": "23",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL18935854623490508730237590",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_9F3238",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Sushi",
+            "posted": "2017-03-11T10:59:43Z",
+            "completed": "2017-03-11T10:59:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "51179.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-139.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "a0866484-d7e6-0330-c3cb-07e80bba8a44",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "6bade4eb-138a-4e9b-b433-c04b72b4581f",
+            "holder": {
+              "name": "NC+",
+              "is_alias": false
+            },
+            "number": "20",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL40434362499632355026670372",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_45C9C6",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "TV",
+            "posted": "2017-03-10T07:04:23Z",
+            "completed": "2017-03-10T07:04:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "51318.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-55.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "009689a1-7388-a5ad-e0fa-eb1a11185593",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b46f8599-21e9-4e29-b853-db669242be95",
+            "holder": {
+              "name": "Stacja Paliw BP",
+              "is_alias": false
+            },
+            "number": "1",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL74936770736017818150661124",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1C7D90",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Umowa nr 718/2219",
+            "posted": "2017-03-10T00:02:13Z",
+            "completed": "2017-03-10T00:02:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "51373.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "5250.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "b30ed585-e5ed-6b76-4059-ee5235388f90",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0ca2e9d2-a508-43b5-b197-3f2fa3ff9425",
+            "holder": {
+              "name": "PGNIG S.A.",
+              "is_alias": false
+            },
+            "number": "13",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL70938618941990086049419613",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_D4F407",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Za gaz",
+            "posted": "2017-03-08T00:00:13Z",
+            "completed": "2017-03-08T00:00:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "46123.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-37.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "6869420c-9e03-69f6-98d8-57a99e4177d2",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "c68f5625-9d0b-47f0-b2b6-8b6f5a4ce286",
+            "holder": {
+              "name": "Mediamarkt.pl",
+              "is_alias": false
+            },
+            "number": "15",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL79243983923619387961339983",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_357BE8",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Zakup suszarki",
+            "posted": "2017-03-07T22:25:03Z",
+            "completed": "2017-03-07T22:25:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "46160.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-1707.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "41c3e006-31cf-4122-92b1-504611d03318",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "4276d9cb-89ad-41a7-bb6d-84cf6245e115",
+            "holder": {
+              "name": "Orlen",
+              "is_alias": false
+            },
+            "number": "7",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL87569260842728718906046671",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_7A59B3",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Paliwo",
+            "posted": "2017-03-07T01:40:53Z",
+            "completed": "2017-03-07T01:40:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "47867.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-7.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "b99d94f3-f44b-4ad8-f747-8a9bf1063cb0",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "ee53dad7-7d30-4711-af2a-29f382659129",
+            "holder": {
+              "name": "Kyoto Sushi",
+              "is_alias": false
+            },
+            "number": "23",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL18935854623490508730237590",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_9F3238",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Sushi",
+            "posted": "2017-03-06T00:01:23Z",
+            "completed": "2017-03-06T00:01:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "47874.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-89.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "0ab9afef-8766-a528-cf10-58b4854fc38c",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "e414b902-5b07-48fa-8d19-5be7ba2f257c",
+            "holder": {
+              "name": "Świat Alkoholi",
+              "is_alias": false
+            },
+            "number": "32",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL37978762170135820025946301",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_119479",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Piwo",
+            "posted": "2017-03-04T22:29:13Z",
+            "completed": "2017-03-04T22:29:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "47963.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-2.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "11907e4f-323e-5169-4579-ee66d9405132",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "c68f5625-9d0b-47f0-b2b6-8b6f5a4ce286",
+            "holder": {
+              "name": "Mediamarkt.pl",
+              "is_alias": false
+            },
+            "number": "15",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL79243983923619387961339983",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "Gotham City Bank"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_357BE8",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Zakup suszarki",
+            "posted": "2017-03-04T21:24:53Z",
+            "completed": "2017-03-04T21:24:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "47965.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-262.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "01ffd011-f2a8-f817-c8b1-9cdaa73bb052",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b46f8599-21e9-4e29-b853-db669242be95",
+            "holder": {
+              "name": "Stacja Paliw BP",
+              "is_alias": false
+            },
+            "number": "1",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL74936770736017818150661124",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1C7D90",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Opłata za paliwo",
+            "posted": "2017-03-01T05:46:33Z",
+            "completed": "2017-03-01T05:46:33Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48227.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-17.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "9eef9fad-710b-3b30-a3cb-400a3971a540",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0560ba88-328d-44f7-910a-d96f10671a87",
+            "holder": {
+              "name": "The Bank Of Gringotts",
+              "is_alias": false
+            },
+            "number": "9",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL86035353773555342526791085",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_2F035E",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Rata za mieszkanie",
+            "posted": "2017-02-27T01:01:53Z",
+            "completed": "2017-02-27T01:01:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48244.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-27.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "650a302a-6a43-6e2b-8f6d-91251c1d045a",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b996e861-199d-4319-99bc-949c76403865",
+            "holder": {
+              "name": "Apteka Melissa",
+              "is_alias": false
+            },
+            "number": "28",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL38241390322998845436402529",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1E66D4",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Globulki",
+            "posted": "2017-02-24T19:48:43Z",
+            "completed": "2017-02-24T19:48:43Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48271.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-37.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "4df4e3e0-9ccf-1abc-4637-7fa4bcf1660a",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "b46f8599-21e9-4e29-b853-db669242be95",
+            "holder": {
+              "name": "Stacja Paliw BP",
+              "is_alias": false
+            },
+            "number": "1",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL74936770736017818150661124",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_1C7D90",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Opłata za paliwo",
+            "posted": "2017-02-20T13:04:53Z",
+            "completed": "2017-02-20T13:04:53Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48308.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-29.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "c54f6377-357a-2899-66ed-dbbd45695c58",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "e5b13c16-acca-4e4c-a217-bfd368901fd9",
+            "holder": {
+              "name": "Żabka",
+              "is_alias": false
+            },
+            "number": "8",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL48113719503401719804856593",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_5589DF",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Hot-dog",
+            "posted": "2017-02-20T01:31:03Z",
+            "completed": "2017-02-20T01:31:03Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48337.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-73.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "9f013053-34e6-ccb4-6e3e-60a1674fde10",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "1548208f-396c-4be1-90e8-f54ec295eed1",
+            "holder": {
+              "name": "Restauracja Złoty Osioł",
+              "is_alias": false
+            },
+            "number": "2",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL17021518430953248427823216",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_F56705",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Kolacja",
+            "posted": "2017-02-18T23:41:23Z",
+            "completed": "2017-02-18T23:41:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48410.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-10.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "6a8800c7-34f6-10f7-cb7d-180c607f44b1",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "ab7f5471-3d44-419e-9f6b-3709f8938c8f",
+            "holder": {
+              "name": "Apart",
+              "is_alias": false
+            },
+            "number": "29",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL26159851873655040559887575",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_393CBD",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Debit Card",
+            "description": "Biżuteria",
+            "posted": "2017-02-18T21:36:13Z",
+            "completed": "2017-02-18T21:36:13Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48420.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-450.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        },
+        {
+          "id": "1053a20f-9411-85a4-ddb2-e00f38610c30",
+          "this_account": {
+            "id": "11c725fe-e39d-49c3-97e5-37545557aad1",
+            "holders": [
+              {
+                "name": "Jurek Okrasa",
+                "is_alias": false
+              }
+            ],
+            "number": "91",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL28814919417210050384603558",
+            "swift_bic": " ",
+            "bank": {
+              "national_identifier": "PL",
+              "name": "ING Bank Śląski"
+            }
+          },
+          "other_account": {
+            "id": "0560ba88-328d-44f7-910a-d96f10671a87",
+            "holder": {
+              "name": "The Bank Of Gringotts",
+              "is_alias": false
+            },
+            "number": "9",
+            "kind": "CURRENT PLUS",
+            "IBAN": "PL86035353773555342526791085",
+            "swift_bic": null,
+            "bank": {
+              "national_identifier": "PL",
+              "name": "The Bank Of Gringotts"
+            },
+            "metadata": {
+              "public_alias": "ALIAS_2F035E",
+              "private_alias": null,
+              "more_info": null,
+              "URL": null,
+              "image_URL": null,
+              "open_corporates_URL": null,
+              "corporate_location": null,
+              "physical_location": null
+            }
+          },
+          "details": {
+            "type": "Transfer",
+            "description": "Rata za mieszkanie",
+            "posted": "2017-02-17T12:36:23Z",
+            "completed": "2017-02-17T12:36:23Z",
+            "new_balance": {
+              "currency": "EUR",
+              "amount": "48870.00"
+            },
+            "value": {
+              "currency": "EUR",
+              "amount": "-25.00"
+            }
+          },
+          "metadata": {
+            "narrative": null,
+            "comments": [],
+            "tags": [],
+            "images": [],
+            "where": null
+          }
+        }
+      ]
+    }
+  }
+]

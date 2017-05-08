@@ -12,8 +12,8 @@ login = process.argv[2] || storage.getItemSync('login');
 oauth = storage.getItemSync(login);
 
 function save(acc) {
-    jsonfile.writeFile('./' + login + '-accounts.json', acc, {spaces: 2}, function(err) {
-      console.error(err || ("accounts " + acc.length + " " + login + '-accounts.json')) 
+    jsonfile.writeFile('./' + login + '-transactions.json', acc, {spaces: 2}, function(err) {
+      console.error(err || ("accounts " + acc.length + " " + login + '-transactions.json')) 
     })
 }
 
@@ -26,12 +26,12 @@ request.get({url: url, oauth: oauth}, function (e, r, body) {
       return;
   }
 	accounts =  JSON.parse(body);
-  save(accounts);
+  console.log("accounts ", accounts.length);
   if (accounts.length) {
     var account = accounts[0];
 
     console.log("query details");
-    url = host + prefix + "/banks/"+account.bank_id + "/accounts/" + account.id +"/owner/account"; 
+    url = host + prefix + "/banks/"+account.bank_id + "/accounts/" + account.id +"/owner/transactions"; 
     //url = host + prefix + "/banks/"+account.bank_id + "/accounts/" + account.id +"/views"; 
     //request.get({url: accounts[0]._links.detail.href, oauth: oauth}, function (e, r, body) {
     request.get({url: url, oauth: oauth}, function (e, r, body) {
@@ -40,7 +40,7 @@ request.get({url: url, oauth: oauth}, function (e, r, body) {
           console.log("error", e);
           return;
       }
-      account.details =  JSON.parse(body);
+      account.transactions =  JSON.parse(body);
       save(accounts);
     })
   }
