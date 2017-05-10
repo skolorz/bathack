@@ -32,15 +32,15 @@ request.get({url: url, oauth: oauth}, function (e, r, body) {
 
     console.log("query details");
     url = host + prefix + "/banks/"+account.bank_id + "/accounts/" + account.id +"/owner/transactions"; 
-    //url = host + prefix + "/banks/"+account.bank_id + "/accounts/" + account.id +"/views"; 
-    //request.get({url: accounts[0]._links.detail.href, oauth: oauth}, function (e, r, body) {
     request.get({url: url, oauth: oauth}, function (e, r, body) {
       console.log("ok");
       if (e){
           console.log("error", e);
           return;
       }
+      //console.log(body);
       account.transactions =  JSON.parse(body);
+      account.transactionsCount = account.transactions.length;
       save(accounts);
     })
   }

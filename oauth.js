@@ -8,26 +8,27 @@ var request = require("request"),
 
 storage.initSync();
 login = process.argv[2] || 'default';
-// STEP 1
+//sTEP 1
 function initiate(loginOauth) {
-	request.post({url:host + '/oauth/initiate', oauth: loginOauth}, 
+	request.post({url: host + '/oauth/initiate', oauth: loginOauth}, 
 	  function (e, r, body) {
-		var oauth, req_data = qs.parse(body);
+		var oauth, 
+req_data = qs.parse(body);
 		if (e){
 			console.log("error", e);
 			return;
 		}
 		console.log("oauth:", req_data);
-  // STEP 3
+  //sTEP 3
 		console.log("authorize here for ing", 
-			    "http://52.164.126.252/oauth_ing?oauth_token="
-			    + req_data.oauth_token);
+			    "http://52.164.126.252/oauth_ing?oauth_token=" +
+			    req_data.oauth_token);
 		console.log("authorize here for gringotts", 
-			    "http://52.164.126.252/oauth_gringotts?oauth_token="
-			    + req_data.oauth_token);
+			    "http://52.164.126.252/oauth_gringotts?oauth_token=" +
+			    req_data.oauth_token);
 		console.log("authorize here for gotham", 
-			    "http://52.164.126.252/oauth_gotham?oauth_token="
-			    + req_data.oauth_token);
+			    "http://52.164.126.252/oauth_gotham?oauth_token=" +
+			    req_data.oauth_token);
 		oauth = {
 			consumer_key: consumerkey.CONSUMER_KEY,
 			consumer_secret: consumerkey.CONSUMER_SECRET,
@@ -58,10 +59,11 @@ function handleAuthCallback(oauth, callback){
   });
 }
 
-// STEP 4
+//sTEP 4
 function getToken(oauth) {
-	request.post({url:host + '/oauth/token', oauth: oauth}, function (e, r, body) {
-		var oauth, req_data = qs.parse(body);
+	request.post({url: host + '/oauth/token', oauth: oauth}, function (e, r, body) {
+		var oauth, 
+req_data = qs.parse(body);
 		console.log("token req data:", req_data);
 		oauth = {
 			consumer_key: consumerkey.CONSUMER_KEY,
@@ -77,8 +79,9 @@ function getToken(oauth) {
 }
 
 
-initiate( { 	callback: 'http://localhost:8080/auth', 
-		signature_method:"HMAC-SHA1",
+initiate({
+ 	callback: 'http://localhost:8080/auth', 
+		signature_method: "HMAC-SHA1",
 		consumer_key: consumerkey.CONSUMER_KEY,
 		consumer_secret: consumerkey.CONSUMER_SECRET
 	  });

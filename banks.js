@@ -10,7 +10,7 @@ storage.initSync();
 oauth= storage.getItemSync('oauth');
 console.log(oauth);
 console.log(url);
-request.get({url:url}, function (e, r, body) {
+request.get({url: url}, function (e, r, body) {
         var req_data = qs.parse(body);
         if (e){
                 console.log("error", e);
